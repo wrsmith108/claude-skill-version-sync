@@ -1,0 +1,32 @@
+{
+  "name": "@wrsmith108/claude-skill-version-sync",
+  "version": "1.0.0",
+  "description": "Claude Code skill for detecting and synchronizing Node.js version specifications across project files",
+  "keywords": [
+    "claude-code",
+    "claude-skill",
+    "nodejs",
+    "version-management",
+    "ci-cd",
+    "developer-tools",
+    "nvm"
+  ],
+  "author": "wrsmith108",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wrsmith108/claude-skill-version-sync.git"
+  },
+  "main": "scripts/index.ts",
+  "scripts": {
+    "check": "npx tsx scripts/index.ts check",
+    "update": "npx tsx scripts/index.ts update"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
