@@ -1,6 +1,6 @@
 {
   "name": "@wrsmith108/claude-skill-version-sync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Claude Code skill for detecting and synchronizing Node.js version specifications across project files",
   "keywords": [
     "claude-code",

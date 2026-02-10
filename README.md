@@ -97,6 +97,12 @@ npx tsx scripts/index.ts update 22
 - Node.js 18+
 - TypeScript (tsx for execution)
 
+## Changelog
+
+### 1.0.1 (2026-02-10)
+
+- **Fixed**: Replaced hardcoded `~/.claude/skills/` paths with relative paths for portability across different install locations
+
 ## License
 
 MIT
