@@ -14,7 +14,7 @@ git clone https://github.com/wrsmith108/claude-skill-version-sync.git ~/.claude/
 ### Standalone Usage
 
 ```bash
-npx tsx ~/.claude/skills/version-sync/scripts/index.ts <command> [options]
+npx tsx scripts/index.ts <command> [options]
 ```
 
 ## Trigger Phrases
